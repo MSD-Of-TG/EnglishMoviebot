@@ -4,9 +4,9 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/KHILADIKING45>NO.1 KHILADI</a>
-✯ Awesome Groups [KHILADI GROUPS](https://t.me/KhiladiGroups)
-✯ Support Group [ANJEL SUPPORT](https://t.me/Godofanjelsupport)
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/KHILADIKING45>NO.1 KHILADI🎻</a>
+✯ Awesome Groups: <a href=https://t.me/KhiladiGroups>KHILADI GROUPS🍒</a>
+✯ Support Group: <a href=https://t.me/Godofanjelsupport>ANJEL SUPPORT❄️</a>
 """
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>
