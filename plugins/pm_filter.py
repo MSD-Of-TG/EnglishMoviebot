@@ -427,9 +427,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Connection', callback_data='coct'),
             InlineKeyboardButton('Extra Mods', callback_data='extra')
         ], [
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔮 Status', callback_data='stats')
-        ]]
+            InlineKeyboardButton('「 🏡𝐇𝐎𝐌𝐄🏠 」, callback_data='start')
+        ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -438,11 +437,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria'),
-            InlineKeyboardButton('♥️ Source', callback_data='source')
+            InlineKeyboardButton('❄️𝐔𝐏𝐃𝐀𝐓𝐄𝐒🍒', url='https://t.me/Anjelupdates'),
+            InlineKeyboardButton('✨𝐂𝐑𝐄𝐀𝐓𝐎𝐑📯', url=f"https://t.me/KHILADIKING45')
         ], [
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔐 Close', callback_data='close_data')
+            InlineKeyboardButton('🏡𝐇𝐎𝐌𝐄🏠', callback_data='start'),
+            InlineKeyboardButton('🔆𝐂𝐋𝐎𝐒𝐄♻️', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
