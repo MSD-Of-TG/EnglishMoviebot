@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
           [
-           InlineKeyboardButton(text="⚜️ 𝐀𝐃𝐃 𝐀𝐍𝐉𝐄𝐋 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ⚜️", url="t.me/GodOfAnjalbot?startgroup=true"),
+           InlineKeyboardButton(text="⚜️ 𝐀𝐃𝐃 𝐀𝐍𝐉𝐄𝐋 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ⚜️", url="t.me/Tokyoprobot?startgroup=true"),
           ],
         [
         InlineKeyboardButton(text="❄️𝐔𝐏𝐃𝐀𝐓𝐄𝐒🍒", url=f"https://t.me/Anjelupdates"),
