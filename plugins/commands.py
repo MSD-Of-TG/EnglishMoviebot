@@ -45,11 +45,11 @@ async def start(client, message):
             InlineKeyboardButton('🔆𝐒𝐄𝐀𝐑𝐂𝐇', switch_inline_query_current_chat=''),
             InlineKeyboardButton('❄️𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/Anjelupdates')
             ],[
-            InlineKeyboardButton('🧨𝐇𝐄𝐋𝐏', callback_data='help'),
-            InlineKeyboardButton('🎷𝐀𝐁𝐎𝐔𝐓', callback_data='about')
-        ],[
              InlineKeyboardButton(text="🍃𝐅𝐄𝐃𝐑𝐀𝐓𝐈𝐎𝐍", url=f"https://t.me/PiratesFed"),
              InlineKeyboardButton(text="📯𝐂𝐑𝐄𝐀𝐓𝐎𝐑", url=f"https://t.me/KHILADIKING45"),
+            ],[
+            InlineKeyboardButton('🧨𝐇𝐄𝐋𝐏', callback_data='help'),
+            InlineKeyboardButton('🎷𝐀𝐁𝐎𝐔𝐓', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
