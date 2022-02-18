@@ -23,6 +23,9 @@ from database.filters_mdb import (
 )
 import logging
 
+ABPIC = ("https://telegra.ph/file/3a7cfcefabf2459936f6f.jpg")
+HEPIC = ("https://telegra.ph/file/aba8ad6c01177f6f39299.jpg")
+
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
 
@@ -430,22 +433,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('「 🏡𝐇𝐎𝐌𝐄🏠 」', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.HELP_TXT.format(query.from_user.mention),
+        await query.message.reply_photo(HEPIC),
+            caption=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode='html'
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('❄️𝐔𝐏𝐃𝐀𝐓𝐄𝐒🍒', url='https://t.me/Anjelupdates'),
-            InlineKeyboardButton('✨𝐂𝐑𝐄𝐀𝐓𝐎𝐑📯', url='https://t.me/KHILADIKING45')
+            InlineKeyboardButton('𝐌𝐎𝐕𝐈𝐄𝐒🍁', url='https://t.me/Anjelmovies'),
+            InlineKeyboardButton('𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏🎻', url='https://t.me/movie_requst2')
         ], [
-            InlineKeyboardButton('🏡𝐇𝐎𝐌𝐄🏠', callback_data='start'),
-            InlineKeyboardButton('🔆𝐂𝐋𝐎𝐒𝐄♻️', callback_data='close_data')
+            InlineKeyboardButton('「 🏡𝐇𝐎𝐌𝐄🏠 」', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.ABOUT_TXT.format(temp.B_NAME),
+        await querymessage.reply_photo(ABPIC),
+            caption=script.ABOUT_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
         )
