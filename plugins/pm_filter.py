@@ -23,9 +23,6 @@ from database.filters_mdb import (
 )
 import logging
 
-ABPIC = ("https://telegra.ph/file/3a7cfcefabf2459936f6f.jpg")
-HEPIC = ("https://telegra.ph/file/aba8ad6c01177f6f39299.jpg")
-
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
 
@@ -446,7 +443,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('「 🏡𝐇𝐎𝐌𝐄🏠 」', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await querymessage.reply_photo(ABPIC),
+        await query.message.reply_photo(ABPIC),
             caption=script.ABOUT_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
