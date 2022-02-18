@@ -431,7 +431,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.reply_photo(HEPIC),
-            caption=script.HELP_TXT.format(query.from_user.mention),
+            caption=script.HELP_TXT.format(message.from_user.mention),
             reply_markup=reply_markup,
             parse_mode='html'
         )
