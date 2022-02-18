@@ -22,17 +22,10 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
-          [
-           InlineKeyboardButton(text="⚜️ 𝐀𝐃𝐃 𝐀𝐍𝐉𝐄𝐋 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ⚜️", url="t.me/Tokyoprobot?startgroup=true"),
-          ],
         [
-        InlineKeyboardButton(text="❄️𝐔𝐏𝐃𝐀𝐓𝐄𝐒🍒", url=f"https://t.me/Anjelupdates"),
-        InlineKeyboardButton(text="☘️𝐒𝐔𝐏𝐏𝐎𝐑𝐓🍁", url=f"https://t.me/GodOfAnjelsupport"),
+        InlineKeyboardButton('🍂𝐇𝐄𝐋𝐏', url=f"https://t.me/{temp.U_NAME}?start=help"),
+        InlineKeyboardButton(text="☘️𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url=f"https://t.me/GodOfAnjelsupport"),
        ],
-            [
-                InlineKeyboardButton('🍂𝐇𝐄𝐋𝐏🍃', url=f"https://t.me/{temp.U_NAME}?start=help"),
-                InlineKeyboardButton("✨𝐂𝐑𝐄𝐀𝐓𝐎𝐑📯", url=f"https://t.me/KHILADIKING45"),
-            ],
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -49,11 +42,14 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚜️ 𝐀𝐃𝐃 𝐓𝐎𝐊𝐘𝐎 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ⚜️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔆𝐒𝐄𝐀𝐑𝐂𝐇🎻', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('❄️𝐔𝐏𝐃𝐀𝐓𝐄𝐒🍒', url='https://t.me/Anjelupdates')
+            InlineKeyboardButton('🔆𝐒𝐄𝐀𝐑𝐂𝐇', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('❄️𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/Anjelupdates')
             ],[
-            InlineKeyboardButton('✨𝐇𝐄𝐋𝐏🧨', callback_data='help'),
-            InlineKeyboardButton('🎷𝐀𝐁𝐎𝐔𝐓🛡', callback_data='about')
+            InlineKeyboardButton('🧨𝐇𝐄𝐋𝐏', callback_data='help'),
+            InlineKeyboardButton('🎷𝐀𝐁𝐎𝐔𝐓', callback_data='about')
+        ],[
+             InlineKeyboardButton(text="🍃𝐅𝐄𝐃𝐑𝐀𝐓𝐈𝐎𝐍", url=f"https://t.me/PiratesFed"),
+             InlineKeyboardButton(text="📯𝐂𝐑𝐄𝐀𝐓𝐎𝐑", url=f"https://t.me/KHILADIKING45"),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -92,11 +88,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚜️ 𝐀𝐃𝐃 𝐓𝐎𝐊𝐘𝐎 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ⚜️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔆𝐒𝐄𝐀𝐑𝐂𝐇🎻', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('❄️𝐔𝐏𝐃𝐀𝐓𝐄𝐒🍒', url='https://t.me/Anjelupdates')
+            InlineKeyboardButton('🔆𝐒𝐄𝐀𝐑𝐂𝐇', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('❄️𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/Anjelupdates')
             ],[
-            InlineKeyboardButton('✨𝐇𝐄𝐋𝐏🧨', callback_data='help'),
-            InlineKeyboardButton('🎷𝐀𝐁𝐎𝐔𝐓🛡', callback_data='about')
+            InlineKeyboardButton('🧨𝐇𝐄𝐋𝐏', callback_data='help'),
+            InlineKeyboardButton('🎷𝐀𝐁𝐎𝐔𝐓', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
