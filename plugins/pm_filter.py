@@ -430,7 +430,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('「 🏡𝐇𝐎𝐌𝐄🏠 」', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.reply_photo(HEPIC),
+        await message.reply_photo(HEPIC),
             caption=script.HELP_TXT.format(message.from_user.mention),
             reply_markup=reply_markup,
             parse_mode='html'
@@ -443,7 +443,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('「 🏡𝐇𝐎𝐌𝐄🏠 」', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.reply_photo(ABPIC),
+        await message.reply_photo(ABPIC),
             caption=script.ABOUT_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
