@@ -404,10 +404,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚜️ 𝐀𝐃𝐃 𝐓𝐎𝐊𝐘𝐎 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ⚜️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⚜️ 𝐀𝐃𝐃 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ⚜️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔆𝐒𝐄𝐀𝐑𝐂𝐇🎻', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('❄️𝐔𝐏𝐃𝐀𝐓𝐄𝐒🍒', url='https://t.me/Anjelupdates')
+            InlineKeyboardButton('❄️𝐔𝐏𝐃𝐀𝐓𝐄𝐒🍒', url='https://t.me/Mastro_updates')
             ],[
             InlineKeyboardButton('✨𝐇𝐄𝐋𝐏🧨', callback_data='help'),
             InlineKeyboardButton('🎷𝐀𝐁𝐎𝐔𝐓🛡', callback_data='about')
@@ -437,8 +437,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('𝐌𝐎𝐕𝐈𝐄𝐒🍁', url='https://t.me/Anjelmovies'),
-            InlineKeyboardButton('𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏🎻', url='https://t.me/movie_request2')
+            InlineKeyboardButton('𝐌𝐎𝐕𝐈𝐄𝐒🍁', url='https://t.me/TNMovieschat'),
+            InlineKeyboardButton('𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏🎻', url='https://t.me/TNMovieChat')
         ], [
             InlineKeyboardButton('「 🏡𝐇𝐎𝐌𝐄🏠 」', callback_data='start'),
         ]]
