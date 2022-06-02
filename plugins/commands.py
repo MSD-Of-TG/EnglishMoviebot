@@ -23,8 +23,8 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
         [
-        InlineKeyboardButton('🍂𝐇𝐄𝐋𝐏', url=f"https://t.me/{temp.U_NAME}?start=help"),
-        InlineKeyboardButton(text="☘️𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url=f"https://t.me/GodOfAnjelsupport"),
+        InlineKeyboardButton('🍂ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
+        InlineKeyboardButton(text="☘️sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/mastro_support"),
        ],
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -40,16 +40,16 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⚜️ 𝐀𝐃𝐃 𝐓𝐎𝐊𝐘𝐎 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ⚜️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⚜️ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴘ⚜️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔆𝐒𝐄𝐀𝐑𝐂𝐇', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('❄️𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/Anjelupdates')
+            InlineKeyboardButton('🔆sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('❄️ᴜᴘᴅᴀᴛᴇs', url='https://t.me/mastro_updates')
             ],[
-             InlineKeyboardButton(text="🍃𝐅𝐄𝐃𝐑𝐀𝐓𝐈𝐎𝐍", url=f"https://t.me/PiratesFed"),
-             InlineKeyboardButton(text="📯𝐂𝐑𝐄𝐀𝐓𝐎𝐑", url=f"https://t.me/KHILADIKING45"),
+             InlineKeyboardButton(text="🍃ғᴏʀ ᴄʜᴀᴛ", url=f"https://t.me/houseofghost"),
+             InlineKeyboardButton(text="📯ᴄʀᴇᴀᴛᴏʀ", url=f"https://t.me/my_dear_lightbright"),
             ],[
-            InlineKeyboardButton('🧨𝐇𝐄𝐋𝐏', callback_data='help'),
-            InlineKeyboardButton('🎷𝐀𝐁𝐎𝐔𝐓', callback_data='about')
+            InlineKeyboardButton('🧨ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('🎷ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -86,13 +86,14 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⚜️ 𝐀𝐃𝐃 𝐓𝐎𝐊𝐘𝐎 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ⚜️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⚜️ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴘ⚜️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔆𝐒𝐄𝐀𝐑𝐂𝐇', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('❄️𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/Anjelupdates')
+            InlineKeyboardButton('🔆sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('❄️ғᴏʀ ᴄʜᴀᴛ', url='https://t.me/houseofghost)
+								 
             ],[
-            InlineKeyboardButton('🧨𝐇𝐄𝐋𝐏', callback_data='help'),
-            InlineKeyboardButton('🎷𝐀𝐁𝐎𝐔𝐓', callback_data='about')
+            InlineKeyboardButton('🧨ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('🎷ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
