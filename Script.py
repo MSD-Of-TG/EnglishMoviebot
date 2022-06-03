@@ -7,9 +7,15 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/My_Dear_lightbright>𝐌𝐒𝐃🎻</a>
-✯ ᴀᴡᴇsᴏᴍᴇ ɢʀᴏᴜᴘs: <a href=https://t.me/Telelinkgalary>𝐌𝐒𝐃 𝐆𝐑𝐏𝐒🍒</a>
-✯ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/Mastro_support>𝐌𝐀𝐒𝐓𝐑𝐎❄️</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/My_Dear_lightbright>✰.♪.எம்.எஸ்.டி.♪.✰</a>
+
+✯ ᴀᴡᴇsᴏᴍᴇ ɢʀᴏᴜᴘs: <a href=https://t.me/Telelinkgalary>ᴛᴇʟᴇ ʟɪɴᴋs🍒</a>
+
+✯ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/Mastro_support>✰ 𝗠ᴀ𝖘𝖙ʀ𝗼 𝗦ᴜ𝖕𝖕𝚘ʀ𝘁 ✰</a>
+
+✯ ғᴏʀ ᴜᴘᴅᴀᴛᴇs: <a href=https://t.me/Tnmovieschat>✰🇹𝐍 🇲𝐎Ⓥ︎𝐈𝐄𝐒✰</a>
+
+✯ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ: <a href=https://t.me/Tnmoviechat>✰🇹𝐍 🇲𝐎Ⓥ︎𝐈𝐄𝐒✰</a>
 """
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>
