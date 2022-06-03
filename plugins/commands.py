@@ -42,6 +42,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚜️ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴘ⚜️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
+		
             InlineKeyboardButton('🔆sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('❄️ᴜᴘᴅᴀᴛᴇs', url='https://t.me/mastro_updates')
             ],[
