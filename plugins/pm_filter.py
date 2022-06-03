@@ -407,7 +407,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⚜️ 𝐀𝐃𝐃 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ⚜️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔆𝐒𝐄𝐀𝐑𝐂𝐇🎻', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('❄️𝐔𝐏𝐃𝐀𝐓𝐄𝐒🍒', url='https://t.me/Mastro_updates')
+            InlineKeyboardButton('❄️𝐔𝐏𝐃𝐀𝐓𝐄𝐒🍒', url='https://t.me/tnmovieschat')
             ],[
             InlineKeyboardButton('✨𝐇𝐄𝐋𝐏🧨', callback_data='help'),
             InlineKeyboardButton('🎷𝐀𝐁𝐎𝐔𝐓🛡', callback_data='about')
@@ -421,11 +421,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Piracy Is Crime')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
-            InlineKeyboardButton('Auto Filter', callback_data='autofilter')
+            InlineKeyboardButton('ᴍANUAL FILTER👨‍🎤', callback_data='manuelfilter'),
+            InlineKeyboardButton('ᴀᴜᴛᴏ ғɪʟᴛᴇʀ🤖', callback_data='autofilter')
         ], [
-            InlineKeyboardButton('Connection', callback_data='coct'),
-            InlineKeyboardButton('Extra Mods', callback_data='extra')
+            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴ'🔌, callback_data='coct'),
+            InlineKeyboardButton('ᴇxᴛʀᴀ ᴍᴏᴅs✨', callback_data='extra')
         ], [
             InlineKeyboardButton('「 🏡𝐇𝐎𝐌𝐄🏠 」', callback_data='start')
         ]]
