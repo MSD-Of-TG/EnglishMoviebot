@@ -45,7 +45,7 @@ async def start(client, message):
 		InlineKeyboardButton('✨ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ💝', url='https://t.me/tnmoviechat')
              ],[   
             InlineKeyboardButton('🔆sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('❄️ᴜᴘᴅᴀᴛᴇs', url='https://t.me/mastro_updates')
+            InlineKeyboardButton('❄️ᴜᴘᴅᴀᴛᴇs', url='https://t.me/TNMovieschat')
             ],[
              InlineKeyboardButton(text="🍃ғᴏʀ ᴄʜᴀᴛ", url=f"https://t.me/houseofghost"),
              InlineKeyboardButton(text="📯ᴄʀᴇᴀᴛᴏʀ", url=f"https://t.me/my_dear_lightbright"),
