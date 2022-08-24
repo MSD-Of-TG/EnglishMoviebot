@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [
         [
         InlineKeyboardButton('🍂ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
-        InlineKeyboardButton(text="☘️sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/mastro_support"),
+        InlineKeyboardButton(text="☘️sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/TNmovieHub"),
        ],
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -42,7 +42,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚜️ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴘ⚜️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-		InlineKeyboardButton('✨ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ💝', url='https://t.me/tnmoviechat')
+		InlineKeyboardButton('✨ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ💝', url='https://t.me/tnmovieHub')
              ],[   
             InlineKeyboardButton('🔆sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('❄️ᴜᴘᴅᴀᴛᴇs', url='https://t.me/TNMovieschat')
@@ -91,7 +91,7 @@ async def start(client, message):
             InlineKeyboardButton('⚜️ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴘ⚜️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔆sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('❄️ғᴏʀ ᴄʜᴀᴛ', url='https://t.me/houseofghost')
+            InlineKeyboardButton('❄️ғᴏʀ ᴄʜᴀᴛ', url='https://t.me/TNmoviehub')
 								 
             ],[
             InlineKeyboardButton('🧨ʜᴇʟᴘ', callback_data='help'),
