@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = ('SESSION', 'Media_search')
-API_ID = int['']
-API_HASH = ['']
-BOT_TOKEN = ['']
+API_ID = ['3188376']
+API_HASH = ['4c187a62bc008363b48f7aa3ed38e56b']
+BOT_TOKEN = ['5509393906:AAFzHzi8ofkXbk4JSTQDoOjoRxkVh7LLat0']
 
 # Bot settings
 CACHE_TIME = int(('CACHE_TIME', 300))
@@ -32,7 +32,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = ('DATABASE_URI', "")
+DATABASE_URI = ('DATABASE_URI', "mongodb+srv://Englishmoviebot:Englishmoviebot@cluster0.l7bfx.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = ('DATABASE_NAME', "Englishmoviebot")
 COLLECTION_NAME = ('COLLECTION_NAME', 'Telegram_files')
 
